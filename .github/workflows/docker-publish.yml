@@ -2,7 +2,8 @@ name: EasyLabo5
 
 on:
   release:
-    branches: ['main']
+    published:
+      branches: ['main']
 
 env:
   REGISTRY: ghcr.io
